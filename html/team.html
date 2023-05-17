@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;600&family=Junge&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/teamStyle.css">
+    <link rel="stylesheet" href="../css/team.Media.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>ArhiType</title>
+    <link rel="icon" type="image/x-icon" href="../images/header/favicon.svg">
+</head>
+<body class="body">
+    <style>
+        .swiper.mySwiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+            max-width: 1400px   !important;
+        }
+
+        .swiper-pagination-bullet {
+            width: 7px !important; 
+            height: 7px !important;
+            opacity: 1;
+            background-color: var(--color-main);
+        }
+
+        .swiper-pagination-bullet-active  {
+            width: 15px !important;
+            height: 15px !important;
+            background-color: inherit;
+            border: 2px solid var(--color-main) !important;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+            margin: 0;
+        }
+
+        .swiper-pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+        }
+    </style>
+
+    <!-- header start -->
+
+    <header class="header header__fixed">
+        <div class="header__content header__fixed">
+            <a href="#" class="header__logo">
+                <img src="../images/header/Logo__header.svg" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item">
+                        <a href="../html/index.html" class="nav__item-link">home</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/aboutUs.html" class="nav__item-link">about us</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/project.html" class="nav__item-link">projects</a>
+                    </li>
+                    <li class="nav__list-item nav__dropDown">
+                        <a href="#" class="nav__dropDown-item">pages</a>
+                        <ul class="sub__list">
+                            <li class="sub__list-item">
+                                <a href="../html/services.html">services</a>
+                            </li>
+                            <li class="sub__list-item">
+                                <a href="../html/team.html">team</a>
+                            </li>
+                            <li class="sub__list-item">
+                                <a href="../html/licenses.html">licenses</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/blog.html" class="nav__item-link">blog</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/contactUs.html" class="nav__item-link">contact</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="#" class="nav__item-link">buy now</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="nav__btn"></button>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- main start -->
+
+    <main class="main">
+
+    <!-- team start -->
+
+        <section class="team">
+            <div class="wrapper__section">
+                <h1 class="team__title">Creative Team Of ArchiType</h1>
+                <div class="team__content__grid">
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-1.jpg" alt="person">
+                        <p class="team__card-name">Jancy Mitchaline</p>
+                        <p class="team__card-post">Designer</p>
+                        <div class="team__card-solial">
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/insta-logo.svg" alt="instargam">
+                            </a>
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-2.png" alt="person">
+                        <p class="team__card-name">Mathew Shedlon</p>
+                        <p class="team__card-post">Architechi</p>
+                        <div class="team__card-solial">
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/insta-logo.svg" alt="instargam" >
+                            </a>
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-3.jpg" alt="person">
+                        <p class="team__card-name">Jancy Mitchaline</p>
+                        <p class="team__card-post">Designer</p>
+                        <div class="team__card-solial">
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/insta-logo.svg" alt="instargam">
+                            </a>
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-4.jpg" alt="person">
+                        <p class="team__card-name">Charlee Hoper</p>
+                        <p class="team__card-post">Designer</p>
+                        <div class="team__card-solial">
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/insta-logo.svg" alt="instargam">
+                            </a>
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-5.png" alt="person">
+                        <p class="team__card-name">Jancy Mitchaline</p>
+                        <p class="team__card-post">Designer</p>
+                        <div class="team__card-solial">
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/insta-logo.svg" alt="instargam">
+                            </a>
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-6.jpg" alt="person">
+                        <p class="team__card-name">Jancy Mitchaline</p>
+                        <p class="team__card-post">Designer</p>
+                        <div class="team__card-solial">
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/insta-logo.svg" alt="instargam">
+                            </a>
+                            <a href="#" class="team__card-link">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <!-- team end -->
+        
+    <!-- reviews start -->
+    <section class="reviews">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="reviews__content">
+                        <img src="../images/reviews/”.svg" alt="staples" class="reviews__staples">
+                        <img src="../images/reviews/person-1.png" alt="person" class="reviews__image">
+                        <p class="reviews__name">Nattasha Kelvine - <span>Designer</span></p>
+                        <p class="reviews__text">scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                    </div>
+                </div>
+                 <div class="swiper-slide">
+                    <div class="reviews__content">
+                        <img src="../images/reviews/”.svg" alt="staples" class="reviews__staples">
+                        <img src="../images/reviews/person-1.png" alt="person" class="reviews__image">
+                        <p class="reviews__name">Nattasha Kelvine - <span>Designer</span></p>
+                        <p class="reviews__text">scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="reviews__content">
+                        <img src="../images/reviews/”.svg" alt="staples" class="reviews__staples">
+                        <img src="../images/reviews/person-1.png" alt="person" class="reviews__image">
+                        <p class="reviews__name">Nattasha Kelvine - <span>Designer</span></p>
+                        <p class="reviews__text">scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- reviews end -->
+
+    <!-- awards start -->
+
+    <section class="awards">
+        <div class="wrapper__section">
+            <div class="awards__content-title">
+                <p class="awards__number section__number">05/06</p>
+                <h2 class="awards__title section__title">The Awards</h2>
+            </div>
+            <div class="awards__content-main">
+                <div class="awards__grid">
+                    <div class="awards__card">
+                        <p class="awards__card-year">2018</p>
+                        <div class="awards__card-info">
+                            <p class="awards__card-title">Building Center of gloucester</p>
+                            <p class="awards__card-text">New York Design Weekdummy text of the printing and industry. </p>
+                        </div>
+                    </div>
+                    <div class="awards__card">
+                        <p class="awards__card-year">2019</p>
+                        <div class="awards__card-info">
+                            <p class="awards__card-title">CSS Design Awards</p>
+                            <p class="awards__card-text">UI,UX Inovation Award
+                                Best Consrtuction Awards</p>
+                        </div>
+                    </div>
+                    <div class="awards__card">
+                        <p class="awards__card-year">2021</p>
+                        <div class="awards__card-info">
+                            <p class="awards__card-title">top Archite</p>
+                            <p class="awards__card-text">New York Design Weekdummy text of the printing and industry.</p>
+                        </div>
+                    </div>
+                </div>
+                    <img src="../images/awards/awards__img.png" alt="image" class="awards__image"> 
+            </div>
+        </div>
+    </section>
+
+    <!-- awards end -->
+    </main>
+
+    <!-- main end -->
+
+    <!-- footer start -->
+
+    <footer class="footer">
+        <div class="wrapper__section">
+            <div class="footer__block-first">
+                <a href="#" class="footer__logo">
+                </a>
+                <nav class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__list-item">
+                            <a href="../html/aboutUs.html" class="footer__list-link">about</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="../html/project.html" class="footer__list-link">projects</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="../html/blog.html" class="footer__list-link">blog</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="../html/contactUs.html" class="footer__list-link">contact</a>
+                        </li>
+                    </ul> 
+                </nav>
+            </div>
+            <div class="footer__info">
+                <div class="footer__connect">
+                    <ul class="footer__social">
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">Fb</a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">Tw</a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">In</a>
+                        </li>
+                    </ul>
+                    <p class="footer__adress">438 Marine Parade Elwood, Victoria P.O Box 3184</p>
+                    <p class="footer__number">Phone: <a href="tel: +714 3948 0000">+714 3948 0000</a></p>
+                    <p class="footer__email">Email: <a href="mailto:hello@architype.com">hello@architype.com</a></p>
+                </div>
+                <div class="footer__utility">
+                    <p class="footer__list__title">Utility Type</p>
+                    <ul class="footer__utility-list">
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Style Guide</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Start Here</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">404 Not Found</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Password Protected</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Licenses</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__talk">
+                    <p class="footer__talk-title">Want to talk about a new project?</p>
+                    <form class="footer__talk-form">
+                        <input type="text" placeholder="Enter your email" class="form__text">
+                        <button class="footer__btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__line"></div>
+            <p class="footer__copy">Copyright © Architype | Designed by <span>VictorFlow</span> Templates - Powered by <span>Webflow</span></p>   
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>

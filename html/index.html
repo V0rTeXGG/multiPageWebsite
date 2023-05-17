@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;600&family=Junge&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/homeStyle.css">
+    <link rel="stylesheet" href="../css/homeMedia.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>ArchiType</title>
+    <link rel="icon" type="image/x-icon" href="../images/header/favicon.svg">
+</head>
+<body class="body">
+    <style>
+        .swiper.mySwiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+            max-width: 1400px   !important;
+        }
+
+        .swiper-pagination-bullet {
+            width: 7px !important; 
+            height: 7px !important;
+            opacity: 1;
+            background-color: var(--color-main);
+        }
+
+        .swiper-pagination-bullet-active  {
+            width: 15px !important;
+            height: 15px !important;
+            background-color: inherit;
+            border: 2px solid var(--color-main) !important;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+            margin: 0;
+        }
+
+        .swiper-pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+        }
+    </style>
+    <!-- header start -->
+
+    <header class="header header__fixed">
+        <div class="header__content">
+            <a href="#" class="header__logo">
+                <img src="../images/header/Logo__header.svg" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item">
+                        <a href="../html/index.html" class="nav__item-link">home</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/aboutUs.html" class="nav__item-link">about us</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/project.html" class="nav__item-link">projects</a>
+                    </li>
+                    <li class="nav__list-item nav__dropDown">
+                        <a href="#" class="nav__dropDown-item">pages</a>
+                        <ul class="sub__list">
+                            <li class="sub__list-item">
+                                <a href="../html/services.html">services</a>
+                            </li>
+                            <li class="sub__list-item">
+                                <a href="../html/team.html">team</a>
+                            </li>
+                            <li class="sub__list-item">
+                                <a href="../html/licenses.html">licenses</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/blog.html" class="nav__item-link">blog</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/contactUs.html" class="nav__item-link">contact</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="#" class="nav__item-link">buy now</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="nav__btn"></button>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- main start -->
+
+    <main class="main">
+
+        <!-- hero start -->
+
+    <section class="hero">
+        <div class="wrapper wrapper__hero">
+            <div class="hero__content">
+                <h1 class="hero__title">We are here to build your dreams.</h1>
+                <a href="../html/aboutUs.html" class="hero__link">View More</a>
+            </div>
+            <div class="hero__social">
+                <a href="#" class="hero__social-link">Fb</a>
+                <a href="#" class="hero__social-link">In</a>
+                <a href="#" class="hero__social-link">Pn</a>
+                <a href="#" class="hero__social-link">Tw</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- hero end -->
+
+    <!-- aboutUs start -->
+
+    <section class="aboutUs">
+        <div class="wrapper__section">
+            <div class="aboutUs__content">
+                <div class="aboutUs__container-title">
+                    <p class="aboutUs__number section__number">01/06</p>
+                    <h2 class="aboutUs__title section__title">We aim to set the trends of modern living.</h2>
+                    <img src="../images/aboutUs/aboutUs__logo.svg" alt="logo">
+                </div>
+                <div class="aboutUs__container-info">
+                    <p class="abouUs__subtitle">About</p>
+                    <p class="aboutUs__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived </p>
+                    <p class="abouUs__subtitle">Goal</p>
+                    <p class="aboutUs__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                    <span class="abouUs__mark"></span>
+                    <p class="aboutUs__quote">spirit of cooperation in providing leadership, design innovation delivery and execution to our project superseded even my high expectations and helped bring our dreams to life</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- aboutUs end -->
+
+    <!-- project start -->
+
+    <section class="project">
+        <div class="wrapper__section">
+            <div class="project__content">
+                <div class="project__content-title">
+                    <h2 class="project__title">Project</h2>
+                    <img src="../images/project/project__title.svg" alt="title" class="project__logo">
+                </div>
+                <div class="project__grid">
+                    <div class="project__card card-1">
+                        <img src="../images/project/project-1.png" alt="project" class="project__card-img">
+                        <p class="project__card-name">Westin Hotel and Transit Center</p>
+                    </div>
+                    <div class="project__card card-2">
+                        <img src="../images/project/project-2.png" alt="project" class="project__card-img">
+                        <p class="project__card-name">Valencia Tenderloin Center</p>
+                    </div>
+                    <div class="project__card card-3">
+                        <img src="../images/project/project-3.png" alt="project" class="project__card-img">
+                        <p class="project__card-name">Hyatt Corporation</p>
+                    </div>
+                    <div class="project__card card-4">
+                        <img src="../images/project/project-4.png" alt="project" class="project__card-img">
+                        <p class="project__card-name">Asperiores repellat aut ducimus</p>
+                    </div>
+                    <div class="project__card card-5">
+                        <img src="../images/project/project-5.png" alt="project" class="project__card-img">
+                        <p class="project__card-name">Blue reflective architecture</p>
+                    </div>
+                </div>
+                <a href="../html/project.html" class="project__btn">
+                    <img src="../images/project/more.svg" alt="" class="project__btn-circle">
+                    <img src="../images/project/btn__arrow.svg" alt="arrow" class="project__btn-arrow">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- project end -->
+
+    <!-- video start -->
+
+    <section class="video">
+        <div class="video__content">
+            <video width="100%" height="100%" poster="../images/video/background__video.png" class="video__video"  data-setup='{ "inactivityTimeout": 3 }'>
+                <source src="../video/hero/Rick Astley - Never Gonna Give You Up (Official Music Video).mp4" type="video/mp4">
+            </video>
+            <button type="button" id="play-pause" class="video__play">Play</abutton>
+        </div>
+    </section>
+
+    <!-- video end -->
+
+    <!-- services start -->
+
+    <section class="services">
+        <div class="wrapper__section">
+            <div class="services__content">
+                <div class="services__content-title">
+                    <p class="services__number section__number">03/06</p>
+                    <h2 class="services__title section__title">Our services</h2>
+                </div>
+                <div class="services__grid"> 
+                    <div class="services__card">
+                        <a href="../html/interiorDesegn.html" class="services__card-title">Architecture Design</a>
+                        <p class="services__card-text">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                    </div>
+                    <div class="services__card">
+                        <a href="../html/interiorDesegn.html" class="services__card-title">Exterior Design</a>
+                        <p class="services__card-text">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                    </div>
+                    <div class="services__card">
+                        <a href="../html/interiorDesegn.html" class="services__card-title">Interior Design</a>
+                        <p class="services__card-text">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                    </div>
+                    <div class="services__card">
+                        <a href="../html/interiorDesegn.html" class="services__card-title">Construction</a>
+                        <p class="services__card-text">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services end -->
+
+    <!-- clients start -->
+
+    <section class="clients">
+        <div class="wrapper__section">
+            <div class="clients__content">
+                <div class="clients__content-title">
+                    <p class="clients__number section__number">03/06</p>
+                    <h2 class="clients__number section__title">Our Clients</h2>
+                </div>
+                <div class="clients__content-flex">
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-1.svg" alt="Architecture" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-2.svg" alt="Construction disign studio" class="clients__content-img">
+                    </a>
+                    <a href="#"> 
+                    <img src="../images/sponsors/sponsors-3.svg" alt="Arhitectures" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-4.svg" alt="VV" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-5.svg" alt="Outline first" class="clients__content-img">
+                    </a>
+                </div>
+                <div class="clients__content-flex">
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-6.svg" alt="Architecture" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-7.svg" alt="Construction disign studio" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-8.svg" alt="Arhitectures" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-9.svg" alt="VV" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-10.svg" alt="Outline first" class="clients__content-img">
+                    </a> 
+                </div>
+                <div class="clients__content-grid">
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-1.svg" alt="Architecture" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-2.svg" alt="Construction disign studio" class="clients__content-img">
+                    </a>
+                    <a href="#"> 
+                    <img src="../images/sponsors/sponsors-3.svg" alt="Arhitectures" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-4.svg" alt="VV" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-5.svg" alt="Outline first" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-6.svg" alt="Architecture" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-7.svg" alt="Construction disign studio" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-8.svg" alt="Arhitectures" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-9.svg" alt="VV" class="clients__content-img">
+                    </a>
+                    <a href="#">
+                        <img src="../images/sponsors/sponsors-10.svg" alt="Outline first" class="clients__content-img">
+                    </a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- clients end -->
+
+    <!-- team start -->
+
+    <section class="team">
+        <div class="wrapper__section">
+            <div class="team__content">
+                <div class="team__content-title">
+                    <p clas="team__number section__number">04/06</p>
+                    <h2 class="team__title section__title">Our expert team</h2>
+                </div>
+                <div class="team__content__grid">
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-1.jpg" alt="person">
+                        <p class="team__card-name">Jancy Mitchaline</p>
+                        <p class="team__card-post">Designer</p>
+                        <div class="team__card-solial">
+                            <a href="https://www.instagram.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/insta-logo.svg" alt="instargam">
+                            </a>
+                            <a href="https://www.facebook.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-2.png" alt="person">
+                        <p class="team__card-name">Mathew Shedlon</p>
+                        <p class="team__card-post">Architechi</p>
+                        <div class="team__card-solial">
+                            <a href="https://www.instagram.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/insta-logo.svg" alt="instargam" >
+                            </a>
+                            <a href="https://www.facebook.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-3.jpg" alt="person">
+                        <p class="team__card-name">Jancy Mitchaline</p>
+                        <p class="team__card-post">Designer</p>
+                        <div class="team__card-solial">
+                            <a href="https://www.instagram.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/insta-logo.svg" alt="instargam">
+                            </a>
+                            <a href="https://www.facebook.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-4.jpg" alt="person">
+                        <p class="team__card-name">Charlee Hoper</p>
+                        <p class="team__card-post">Designer</p>
+                        <div class="team__card-solial">
+                            <a href="https://www.instagram.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/insta-logo.svg" alt="instargam">
+                            </a>
+                            <a href="https://www.facebook.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-5.png" alt="person">
+                        <p class="team__card-name">Jancy Mitchaline</p>
+                        <p class="team__card-post">Designer</p>
+                        <div class="team__card-solial">
+                            <a href="https://www.instagram.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/insta-logo.svg" alt="instargam">
+                            </a>
+                            <a href="https://www.facebook.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-card">
+                        <img src="../images/team/Photo-6.jpg" alt="person">
+                        <p class="team__card-name">Jancy Mitchaline</p>
+                        <p class="team__card-post">Designer</p>
+                        <div class="team__card-solial">
+                            <a href="https://www.instagram.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/insta-logo.svg" alt="instargam">
+                            </a>
+                            <a href="https://www.facebook.com/" class="team__card-link" target="_blank">
+                                <img src="../images/team/facebook-logo.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- team end -->
+
+    <!-- reviews start -->
+
+    <section class="reviews">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="reviews__content">
+                        <img src="../images/reviews/”.svg" alt="staples" class="reviews__staples">
+                        <img src="../images/reviews/person-1.png" alt="person" class="reviews__image">
+                        <p class="reviews__name">Nattasha Kelvine - <span>Designer</span></p>
+                        <p class="reviews__text">scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                    </div>
+                </div>
+                 <div class="swiper-slide">
+                    <div class="reviews__content">
+                        <img src="../images/reviews/”.svg" alt="staples" class="reviews__staples">
+                        <img src="../images/reviews/person-1.png" alt="person" class="reviews__image">
+                        <p class="reviews__name">Nattasha Kelvine - <span>Designer</span></p>
+                        <p class="reviews__text">scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="reviews__content">
+                        <img src="../images/reviews/”.svg" alt="staples" class="reviews__staples">
+                        <img src="../images/reviews/person-1.png" alt="person" class="reviews__image">
+                        <p class="reviews__name">Nattasha Kelvine - <span>Designer</span></p>
+                        <p class="reviews__text">scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- reviews end -->
+
+    <!-- awards start -->
+
+    <section class="awards">
+        <div class="wrapper__section">
+            <div class="awards__content-title">
+                <p class="awards__number section__number">05/06</p>
+                <h2 class="awards__title section__title">The Awards</h2>
+            </div>
+            <div class="awards__content-main">
+                <div class="awards__grid">
+                    <div class="awards__card">
+                        <p class="awards__card-year">2018</p>
+                        <div class="awards__card-info">
+                            <p class="awards__card-title">Building Center of gloucester</p>
+                            <p class="awards__card-text">New York Design Weekdummy text of the printing and industry. </p>
+                        </div>
+                    </div>
+                    <div class="awards__card">
+                        <p class="awards__card-year">2019</p>
+                        <div class="awards__card-info">
+                            <p class="awards__card-title">CSS Design Awards</p>
+                            <p class="awards__card-text">UI,UX Inovation Award
+                                Best Consrtuction Awards</p>
+                        </div>
+                    </div>
+                    <div class="awards__card">
+                        <p class="awards__card-year">2021</p>
+                        <div class="awards__card-info">
+                            <p class="awards__card-title">top Archite</p>
+                            <p class="awards__card-text">New York Design Weekdummy text of the printing and industry.</p>
+                        </div>
+                    </div>
+                </div>
+                    <img src="../images/awards/awards__img.png" alt="image" class="awards__image"> 
+            </div>
+        </div>
+    </section>
+
+    <!-- awards end -->
+
+    <!-- news start -->
+
+    <section class="news">
+        <div class="wrapper__section">
+            <div class="news__content">
+                <div class="news__content-title">
+                    <p class="news__number section__number">06/06</p>
+                    <h2 class="news__title section__title">Latest News</h2>
+                </div>
+                <div class="news__content">
+                    <div class="news__content-block">
+                        <div class="news__block-inner">
+                            <img src="../images/news/img__block-1.png" alt="image" class="news__block-image">
+                            <p class="news__block-info">November-05-21 | <span>Designer, Construction</span></p>
+                            <p class="news__block-title">Inside The Tallest Residential Tower In Manhattan</p>
+                        </div>
+                        <a href="../html/articleBlog.html" class="news__block-more">View More</a>
+                    </div>
+                    <div class="news__content-block">
+                        <div class="news__block-inner">
+                            <img src="../images/news/img__block-2.png" alt="image">
+                            <p class="news__block-info">November-05-21 | <span>Designer, Construction</span></p>
+                            <p class="news__block-title">Ancient Technology Gets An Update In Sustainable Cooling Solution</p>
+                        </div>
+                        <a href="../html/articleBlog.html" class="news__block-more">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- news end -->
+
+    </main>
+    
+    <!-- main end -->
+
+    <!-- footer start -->
+
+    <footer class="footer">
+        <div class="wrapper__section">
+            <div class="footer__block-first">
+                <a href="#" class="footer__logo">
+                </a>
+                <nav class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__list-item">
+                            <a href="../html/aboutUs.html" class="footer__list-link">about</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="../html/project.html" class="footer__list-link">projects</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="../html/blog.html" class="footer__list-link">blog</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="../html/contactUs.html" class="footer__list-link">contact</a>
+                        </li>
+                    </ul> 
+                </nav>
+            </div>
+            <div class="footer__info">
+                <div class="footer__connect">
+                    <ul class="footer__social">
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">Fb</a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">Tw</a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">In</a>
+                        </li>
+                    </ul>
+                    <p class="footer__adress">438 Marine Parade Elwood, Victoria P.O Box 3184</p>
+                    <p class="footer__number">Phone: <a href="tel: +714 3948 0000">+714 3948 0000</a></p>
+                    <p class="footer__email">Email: <a href="mailto:hello@architype.com">hello@architype.com</a></p>
+                </div>
+                <div class="footer__utility">
+                    <p class="footer__list__title">Utility Type</p>
+                    <ul class="footer__utility-list">
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Style Guide</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Start Here</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">404 Not Found</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Password Protected</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="../html/licenses.html" class="fototer__list-link">Licenses</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__talk">
+                    <p class="footer__talk-title">Want to talk about a new project?</p>
+                    <form class="footer__talk-form">
+                        <input type="text" placeholder="Enter your email" class="form__text">
+                        <button class="footer__btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__line"></div>
+            <p class="footer__copy">Copyright © Architype | Designed by <span>VictorFlow</span> Templates - Powered by <span>Webflow</span></p>   
+        </div>
+    </footer>
+
+    <!-- footer end -->
+    <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>

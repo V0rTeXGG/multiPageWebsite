@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Junge&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="../css/servicesStyle.css">
+    <link rel="stylesheet" href="../css/servicesMedia.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <title>ArchiType</title>
+    <link rel="icon" type="image/x-icon" href="../images/header/favicon.svg">
+</head>
+<body class="body">
+
+    <style>
+        .swiper.mySwiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+            max-width: 1400px   !important;
+        }
+
+        .swiper-pagination-bullet {
+            width: 7px !important; 
+            height: 7px !important;
+            opacity: 1;
+            background-color: var(--color-main);
+        }
+
+        .swiper-pagination-bullet-active  {
+            width: 15px !important;
+            height: 15px !important;
+            background-color: inherit;
+            border: 2px solid var(--color-main) !important;
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+            margin: 0;
+        }
+
+        .swiper-pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+        }
+    </style>
+
+    <!-- header start -->
+
+    <header class="header header__fixed">
+        <div class="header__content header__fixed">
+            <a href="#" class="header__logo">
+                <img src="../images/header/Logo__header.svg" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item">
+                        <a href="../html/index.html" class="nav__item-link">home</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/aboutUs.html" class="nav__item-link">about us</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/project.html" class="nav__item-link">projects</a>
+                    </li>
+                    <li class="nav__list-item nav__dropDown">
+                        <a href="#" class="nav__dropDown-item">pages</a>
+                        <ul class="sub__list">
+                            <li class="sub__list-item">
+                                <a href="../html/services.html">services</a>
+                            </li>
+                            <li class="sub__list-item">
+                                <a href="../html/team.html">team</a>
+                            </li>
+                            <li class="sub__list-item">
+                                <a href="../html/licenses.html">licenses</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/blog.html" class="nav__item-link">blog</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="../html/contactUs.html" class="nav__item-link">contact</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="#" class="nav__item-link">buy now</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="nav__btn"></button>
+        </div>
+    </header>
+    
+    <!-- header end -->
+
+    <main>
+        <!-- hero start -->
+
+        <section class="hero">
+            <div class="wrapper">
+                <h1 class="hero__title">The Best Architecure Service From Us</h1>
+                <img src="../images/SecServices/hero/hero__bg.png" alt="city">
+            </div>
+        </section>
+
+        <!-- hero end -->
+
+        <!-- services start -->
+        <section class="services">
+            <div class="wrapper__section">
+                <div class="services__grid">
+                    <div class="services__block">
+                        <a href="../html/interiorDesegn.html" class="services__block-title">Architecture Design</a>
+                       <p class="services__block-text">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                    </div>
+                    <div class="services__block">
+                        <a href="../html/interiorDesegn.html" class="services__block-title">Flooring & Tilings</a>
+                        <p class="services__block-text">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                     </div>
+                     <div class="services__block">
+                        <a href="../html/interiorDesegn.html" class="services__block-title">Exterior Design</a>
+                        <p class="services__block-text">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                     </div>
+                     <div class="services__block">
+                        <a href="../html/interiorDesegn.html" class="services__block-title">Decoration</a>
+                        <p class="services__block-text">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                     </div>
+                     <div class="services__block">
+                        <a href="../html/interiorDesegn.html" class="services__block-title">Interior Design</a>
+                        <p class="services__block-text">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                     </div>
+                     <div class="services__block">
+                        <a href="../html/interiorDesegn.html" class="services__block-title">Construction</a>
+                        <p class="services__block-text">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- services end -->
+
+        <!-- work start -->
+
+        <section class="work">
+            <div class="wrapper__section">
+                <div class="work__flex">
+                    <img src="../images/SecServices/work/work__img.png" alt="project" class="work__image">
+                    <div class="work__flex-block">
+                        <div class="work__block__info-title">
+                            <p class="work__block-number section__number">04/06</p>
+                            <p class="work__block-title section__title">The Type Of Work We Do</p>
+                        </div>
+                        <p class="work__block-text">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum  repeat predefined.</p>
+                        <ul class="accordions">
+                            <li class="accordion">
+                                <button class="accordion__control" aria-expanded="false">
+                                    <span class="accordion__control-text">Quick Response</span>
+                                    <span class="accordion__control-logo"></span>
+                                </button>
+                                <div class="accordion__content" aria-hidden="true">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum  repeat predefined.
+                                </div>
+                            </li>
+                            <li class="accordion">
+                                <button class="accordion__control" aria-expanded="false">
+                                    <span class="accordion__control-text">Finest Quality</span>
+                                    <span class="accordion__control-logo"></span>
+                                </button>
+                                <div class="accordion__content" aria-hidden="true">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum  repeat predefined.
+                                </div>
+                            </li>
+                            <li class="accordion">
+                                <button class="accordion__control last-block" aria-expanded="false">
+                                    <span class="accordion__control-text">Free Trial Work</span>
+                                    <span class="accordion__control-logo"></span>
+                                </button>
+                                <div class="accordion__content" aria-hidden="true">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum  repeat predefined.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- work end -->
+
+        <!-- quote start -->
+
+        <section class="quote">
+            <div class="swiper Swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="quote__content">
+                            <img src="../images/reviews/”.svg" alt="staples" class="quote__staples">
+                            <img src="../images/SecServices/quote/slider__img.png" alt="person" class="quote__image">
+                            <p class="quote__name">Nattasha Kelvine - <span>Designer</span></p>
+                            <p class="quote__text">scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote__content">
+                            <img src="../images/reviews/”.svg" alt="staples" class="quote__staples">
+                            <img src="../images/SecServices/quote/slider__img.png" alt="person" class="quote__image">
+                            <p class="quote__name">Nattasha Kelvine - <span>Designer</span></p>
+                            <p class="quote__text">scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote__content">
+                            <img src="../images/reviews/”.svg" alt="staples" class="quote__staples">
+                            <img src="../images/SecServices/quote/slider__img.png" alt="person" class="quote__image">
+                            <p class="quote__name">Nattasha Kelvine - <span>Designer</span></p>
+                            <p class="quote__text">scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- quote end -->
+
+        <!-- awards start -->
+
+        <section class="awards">
+            <div class="wrapper__section">
+                <div class="awards__content-title">
+                    <p class="awards__number section__number">05/06</p>
+                    <h2 class="awards__title section__title">The Awards</h2>
+                </div>
+                <div class="awards__content-main">
+                    <div class="awards__grid">
+                        <div class="awards__card">
+                            <p class="awards__card-year">2018</p>
+                            <div class="awards__card-info">
+                                <p class="awards__card-title">Building Center of gloucester</p>
+                                <p class="awards__card-text">New York Design Weekdummy text of the printing and industry. </p>
+                            </div>
+                        </div>
+                        <div class="awards__card">
+                            <p class="awards__card-year">2019</p>
+                            <div class="awards__card-info">
+                                <p class="awards__card-title">CSS Design Awards</p>
+                                <p class="awards__card-text">UI,UX Inovation Award
+                                    Best Consrtuction Awards</p>
+                            </div>
+                        </div>
+                        <div class="awards__card">
+                            <p class="awards__card-year">2021</p>
+                            <div class="awards__card-info">
+                                <p class="awards__card-title">top Archite</p>
+                                <p class="awards__card-text">New York Design Weekdummy text of the printing and industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                        <img src="../images/awards/awards__img.png" alt="image" class="awards__image"> 
+                </div>
+            </div>
+        </section>
+
+        <!-- awards end -->
+
+        <!-- footer start -->
+
+    <footer class="footer">
+        <div class="wrapper__section">
+            <div class="footer__block-first">
+                <a href="#" class="footer__logo">
+                </a>
+                <nav class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__list-item">
+                            <a href="../html/aboutUs.html" class="footer__list-link">about</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="../html/project.html" class="footer__list-link">projects</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="../html/blog.html" class="footer__list-link">blog</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="../html/contactUs.html" class="footer__list-link">contact</a>
+                        </li>
+                    </ul> 
+                </nav>
+            </div>
+            <div class="footer__info">
+                <div class="footer__connect">
+                    <ul class="footer__social">
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">Fb</a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">Tw</a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">In</a>
+                        </li>
+                    </ul>
+                    <p class="footer__adress">438 Marine Parade Elwood, Victoria P.O Box 3184</p>
+                    <p class="footer__number">Phone: <a href="tel: +714 3948 0000">+714 3948 0000</a></p>
+                    <p class="footer__email">Email: <a href="mailto:hello@architype.com">hello@architype.com</a></p>
+                </div>
+                <div class="footer__utility">
+                    <p class="footer__list__title">Utility Type</p>
+                    <ul class="footer__utility-list">
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Style Guide</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Start Here</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">404 Not Found</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Password Protected</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Licenses</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="fototer__list-link">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__talk">
+                    <p class="footer__talk-title">Want to talk about a new project?</p>
+                    <form class="footer__talk-form">
+                        <input type="text" placeholder="Enter your email" class="form__text">
+                        <button class="footer__btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__line"></div>
+            <p class="footer__copy">Copyright © Architype | Designed by <span>VictorFlow</span> Templates - Powered by <span>Webflow</span></p>   
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+
+        <script src="../js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <script>
+            var swiper = new Swiper(".Swiper", {
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+          </script>
+    </main>
+</body>
+</html>
